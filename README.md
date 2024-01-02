@@ -51,9 +51,7 @@ SELECT
   COUNT(*) AS NullCount_Gender,
   COUNT(*) AS NullCount_Department,
   COUNT(*) AS NullCount_Salary,
-  COUNT(*) AS NullCount_StartDate,
   COUNT(*) AS NullCount_FTE,
-  COUNT(*) AS NullCount_EmployeeType,
   COUNT(*) AS NullCount_WorkLocation
 FROM [Jan1].[dbo].['DirtyData$']
 WHERE
@@ -62,9 +60,7 @@ WHERE
   [Gender] IS NULL OR
   [Department] IS NULL OR
   [Salary] IS NULL OR
-  [Start Date] IS NULL OR
   [FTE] IS NULL OR
-  [Employee type] IS NULL OR
   [Work location] IS NULL;
 
 -- Step 3: Checking for unique values in each column
@@ -74,9 +70,7 @@ SELECT
   COUNT(DISTINCT [Gender]) AS UniqueCount_Gender,
   COUNT(DISTINCT [Department]) AS UniqueCount_Department,
   COUNT(DISTINCT [Salary]) AS UniqueCount_Salary,
-  COUNT(DISTINCT [Start Date]) AS UniqueCount_StartDate,
   COUNT(DISTINCT [FTE]) AS UniqueCount_FTE,
-  COUNT(DISTINCT [Employee type]) AS UniqueCount_EmployeeType,
   COUNT(DISTINCT [Work location]) AS UniqueCount_WorkLocation
 FROM [Jan1].[dbo].['DirtyData$'];
 
@@ -209,7 +203,6 @@ CREATE TABLE [Jan1].[dbo].[NewDirtyData]
 	EmployeeID NVARCHAR(50),
     FirstName  NVARCHAR(255),
 	LastName  NVARCHAR(255),
-	Employeetype NVARCHAR(255),
 	City NVARCHAR(255),
 	Country NVARCHAR(255),
 	FullPart  NVARCHAR(255),
@@ -218,7 +211,7 @@ CREATE TABLE [Jan1].[dbo].[NewDirtyData]
 );
 
 -- Step 26: Inserting data into the new table with the desired column order
-INSERT INTO [Jan1].[dbo].[NewDirtyData] (CostCenter, EmployeeID, FirstName, LastName, Employeetype, City, Country, FullPart, Department, Salary)
+INSERT INTO [Jan1].[dbo].[NewDirtyData] (CostCenter, EmployeeID, FirstName, LastName, City, Country, FullPart, Department, Salary)
 SELECT CostCenter, EmployeeID, FirstName, LastName, Employeetype, City, Country, FullPart, Department, Salary
 FROM [Jan1].[dbo].['DirtyData$'];
 
