@@ -22,10 +22,12 @@ The project leverages SQL for data validation, cleaning, and analysis. Queries a
 
 **Attachment:**
 - [Old Excel File (Before Data Cleaning).xlsx](https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/files/13813386/Old.Excel.File.Before.Data.Cleaning.xlsx)
+- Here is a screenshot before the data cleaning
 
 	<img width="697" alt="Old" src="https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/assets/152249280/3ff3a20a-fe85-406f-b603-59796a69760a">
   
 - [New Excel File (After Data Cleaning).xlsx](https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/files/13813366/New.Excel.File.After.Data.Cleaning.xlsx)
+- - Here is a screenshot after the data cleaning
  
 	<img width="782" alt="New" src="https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/assets/152249280/36cb8333-a17a-4987-bb6a-aafe5cce606e">
 
