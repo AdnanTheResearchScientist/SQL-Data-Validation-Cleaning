@@ -1,7 +1,30 @@
 # SQL-Data-Validation-Cleaning
 
-The Employee Data Management System is a comprehensive project aimed at organizing and managing essential employee information. ##The dataset## encompasses key details, including unique Employee ID, Name, Gender, Department, Salary, Full-Time Equivalent (FTE), and Work Location. Noteworthy features of the system include the capture of detailed employee profiles, consideration of diverse work locations, assessment of employee workload through FTE metrics, categorization into various departments, and consistent handling of salary information in a currency-agnostic format. 
-Implemented through SQL, the project emphasizes data validation, cleaning, and analysis using queries and scripts to ensure data integrity. The systematic process addresses inconsistencies and inaccuracies, preparing the data for insightful analysis. The before-and-after Excel files, depicting the dataset before and after data cleaning, are attached for reference. This systematic approach benefits analysts, data scientists, and decision-makers by providing reliable and actionable insights for informed decision-making. The Employee Data Management System is designed to be adaptable, allowing ongoing updates and enhancements to meet the evolving needs of the organization's human resources management.
+**Project Title:** Employee Data Management System
+
+**Project Description:**
+The Employee Data Management System is a comprehensive project aimed at organizing and managing essential employee information. The dataset encompasses key details, including unique Employee ID, Name, Gender, Department, Salary, Full-Time Equivalent (FTE), and Work Location.
+
+**Key Features:**
+1. **Comprehensive Employee Profiles:** The system captures detailed profiles of each employee, including demographic details like Name, Gender, and specific employment-related information such as Department and Salary.
+2. **Location Flexibility:** The project accounts for the diverse work locations of employees, ranging from on-site locations such as Seattle, USA, and Wellington, New Zealand, to remote work arrangements in various cities globally.
+3. **Workload Metrics:** The Full-Time Equivalent (FTE) field allows for the assessment of employee workload, with values ranging from 0.7 to 1.
+4. **Departmental Distribution:** Employees are categorized into different departments, such as Business Development, Services, Training, Engineering, Support, Marketing, and Research and Development, reflecting the diverse functions within the organization.
+5. **Currency-Agnostic Salary Information:** The system handles salary information, presented in a consistent format, making it easy to analyze and compare across employees.
+
+**Project Implementation:**
+The project leverages SQL for data validation, cleaning, and analysis. Queries and scripts are employed to ensure data integrity, validate formats, and perform consistency checks.
+
+**Next Steps:**
+1. Implement data validation checks to ensure data accuracy and integrity.
+2. Clean data and prepare for providing insights by systematically addressing inconsistencies and inaccuracies.
+3. Optimize the dataset for analysis using normalization and transformation techniques.
+
+**Attachment:**
+- [Old Excel File (Before Data Cleaning)](link_to_old_excel_file)
+- [New Excel File (After Data Cleaning)](link_to_new_excel_file)
+
+This systematic process benefits analysts, data scientists, and decision-makers by providing reliable and actionable insights for informed decision-making. The Employee Data Management System is designed to be adaptable, allowing ongoing updates and enhancements to meet the evolving needs of the organization's human resources management.
 
 
 ```sql
