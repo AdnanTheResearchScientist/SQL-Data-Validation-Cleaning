@@ -21,7 +21,7 @@ The project leverages SQL for data validation, cleaning, and analysis. Queries a
 3. Optimize the dataset for analysis using normalization and transformation techniques.
 
 **Attachment:**
-- [Old Excel File (Before Data Cleaning)](link_to_old_excel_file)
+- Old Excel File (Before Data Cleaning).xlsx
 - [New Excel File (After Data Cleaning)](link_to_new_excel_file)
 
 This systematic process benefits analysts, data scientists, and decision-makers by providing reliable and actionable insights for informed decision-making. The Employee Data Management System is designed to be adaptable, allowing ongoing updates and enhancements to meet the evolving needs of the organization's human resources management.
