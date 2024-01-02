@@ -23,11 +23,11 @@ The project leverages SQL for data validation, cleaning, and analysis. Queries a
 **Attachment:**
 - Old Excel File (Before Data Cleaning).xlsx
   
-  <img width="697" alt="Old" src="https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/assets/152249280/3ff3a20a-fe85-406f-b603-59796a69760a">
+	<img width="697" alt="Old" src="https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/assets/152249280/3ff3a20a-fe85-406f-b603-59796a69760a">
   
 - [New Excel File (After Data Cleaning)](link_to_new_excel_file)
  
-<img width="782" alt="New" src="https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/assets/152249280/36cb8333-a17a-4987-bb6a-aafe5cce606e">
+	<img width="782" alt="New" src="https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/assets/152249280/36cb8333-a17a-4987-bb6a-aafe5cce606e">
 
 This systematic process benefits analysts, data scientists, and decision-makers by providing reliable and actionable insights for informed decision-making. The Employee Data Management System is designed to be adaptable, allowing ongoing updates and enhancements to meet the evolving needs of the organization's human resources management.
 
