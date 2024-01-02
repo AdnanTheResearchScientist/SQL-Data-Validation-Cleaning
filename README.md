@@ -21,8 +21,7 @@ The project leverages SQL for data validation, cleaning, and analysis. Queries a
 3. Optimize the dataset for analysis using normalization and transformation techniques.
 
 **Attachment:**
-- Old Excel File (Before Data Cleaning).xlsx
-- [Old Excel File (Before Data Cleaning).xlsx](https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/files/13813379/Old.Excel.File.Before.Data.Cleaning.xlsx[)](url)
+- [Old Excel File (Before Data Cleaning).xlsx](https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/files/13813379/Old.Excel.File.Before.Data.Cleaning.xlsx[)
   
 	<img width="697" alt="Old" src="https://github.com/AdnanTheResearchScientist/SQL-Data-Validation-Cleaning/assets/152249280/3ff3a20a-fe85-406f-b603-59796a69760a">
   
